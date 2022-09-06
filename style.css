@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+.sketch-pad{
+    margin: 50px auto 50px auto;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 10px grey;
+    display: flex;
+    flex-flow: wrap;
+padding: 10px;
+    border-radius: 5px;
+}
+
+.box {
+    flex: 1 1 auto;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:lightslategray;
+    box-shadow: 0px 0px 5px grey;
+    color: white;
+
+}
+
+
+
