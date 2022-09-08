@@ -5,16 +5,64 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <div class="sketch-pad">
-        <!-- boxes will be located here! -->
-    </div> 
-    
-    <div class="button-container">
-        <button>Reset</button>
-    </div>
+    <header>
+        <!-- background color -->
+        <div class="container">
+            <!-- stays width -->
+            <h1>Etch A Sketch</h1>
+            <!--h2, flex start-->
+
+        </div> 
+    </header>
+    <!-- boxes will be located here! -->
+
+    <section>
+            
+        <div class="container">
+            <div class="main">
+                <div class="options-panel-one">
+                    <div id="reset">
+                        <button>Reset</button>
+                    </div>
+                    <div id="eraser">
+                        <button>Eraser</button>     
+                    </div>
+
+                    <!-- eraser -->
+                    <!-- clear -->
+                    <!-- grid resizer -->
+                </div>
+                <div class="sketch-pad"></div> 
+                <div class="options-panel-two">
+                    <div id="color-picker">
+                        <div class="color-picker-container">
+                            <label for="box-color">Change Color</label>
+                            <input type="color" id="box-color" name="box-color">
+                        </div>
+                    </div>
+                    
+                    <div id="rainbow-mode">
+                        <button>Rainbow Mode</button>
+                    </div>
+                    <!-- color picker -->
+
+                    <!-- rainbow mode -->
+                </div>
+                
+            </div>
+                
+        </div>
+    </section>
 </body>
 <script src="dom.js"></script>
 </html>
+<!--             
+            <div class="button-container">
+                <button>Reset</button>
+    v> -->
