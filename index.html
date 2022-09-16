@@ -33,6 +33,10 @@
                     <div id="eraser">
                         <button>Eraser</button>     
                     </div>
+                    <div class="slider">
+                        <input  type="range" min="4" max="40" value="16" step='4' oninput="rangeValue.innerText = this.value">
+                        <p id="rangeValue">16</p>
+                    </div>
 
                     <!-- eraser -->
                     <!-- clear -->
@@ -47,12 +51,18 @@
                         </div>
                     </div>
                     
-                    <div id="rainbow-mode">
-                        <button>Rainbow Mode</button>
+                    <div id="glitter-mode">
+                        <button>Glitter Mode</button>
                     </div>
                     <!-- color picker -->
 
                     <!-- rainbow mode -->
+                    <div id="fill-canvas">
+                        <div class="fill-canvas-container">
+                            <label for="canvas-color">Fill Color</label>
+                            <input type="color" id="canvas-color" name="canvas-color">
+                        </div>
+                    </div>
                 </div>
                 
             </div>
